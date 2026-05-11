@@ -1,1 +1,1 @@
-# SYSO-Select_Your_Spirit_Online-
+SYSO(Select_Your_Spirit_Online)
