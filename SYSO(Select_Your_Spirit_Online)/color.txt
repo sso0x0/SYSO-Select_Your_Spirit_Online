@@ -1,0 +1,35 @@
+연한 베이지 (전체 배경색)
+private final Color mainBgColor = new Color(225, 215, 200); 
+
+짙은 갈색 (글씨, 버튼 배경, 테두리 등 포인트 컬러)
+private final Color pointColor = new Color(85, 65, 55);
+
+상품 카드 배경 (아주 연한 크림색)
+card.setBackground(new Color(255, 252, 247)); 
+
+이미지 레이블 테두리 (연한 브라운)
+imgLabel.setBorder(BorderFactory.createLineBorder(new Color(210, 190, 180), 1)); 
+
+상품 가격 글씨 색상 (중간 갈색)
+price.setForeground(new Color(120, 80, 60));
+
+품절 상태 (회색)
+stockBadge.setRibbonColor(new Color(115, 115, 115));
+
+수량 부족 (빨간색 계열)
+stockBadge.setRibbonColor(new Color(196, 69, 61));
+
+수량 주의 (주황색 계열)
+stockBadge.setRibbonColor(new Color(220, 146, 31));
+
+재고 충분 (파란색 계열)
+stockBadge.setRibbonColor(new Color(36, 108, 145));
+
+검색 영역 하단의 점선
+g2.setColor(Color.WHITE); 
+
+카테고리 버튼의 둥근 테두리
+g2.setColor(pointColor); 
+
+재고 리본 텍스트 색상
+setForeground(Color.WHITE);
